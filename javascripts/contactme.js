@@ -12,7 +12,7 @@ $(document).ready(function () {
     console.log(form.checkValidity());
     if (form.checkValidity() === true) {
       $.ajax({
-        url: '/apis/contactme',
+        url: 'https://academy.recursion.in/apis/contactme',
         type: 'post',
         data: $('#contactme-form').serialize(),
         success: function () {
