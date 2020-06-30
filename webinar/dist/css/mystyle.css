@@ -24,8 +24,17 @@ img {
 
 @media (max-width: 600px ) {
 	.header-brand {
-		width: 20%;
+		width: 50%;
 	}
+
+	.footer-brand {
+		width: 100%;
+		text-align: center;
+	}
+
+	.footer-brand img {
+		width: 20%;
+	}	
 }
 
 html {
