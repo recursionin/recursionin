@@ -1,0 +1,54 @@
+.header-logo-image {
+	width: 100%;
+}
+
+.header-brand {
+	width: 20%;
+}
+
+.footer-brand {
+	width: 20%;
+}
+
+.footer-brand img {
+	width: 15%;
+}
+
+img {
+	display: inline-block;
+}
+
+.header-illustration-image {
+	top: -245px;
+}
+
+@media (max-width: 600px ) {
+	.header-brand {
+		width: 20%;
+	}
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.feature-icon img, .feature-icon svg {
+    max-width: 100%;
+}
+
+.feature-icon {
+	width: 15%;
+	box-shadow: -11px 10px 43px -22px rgba(0,0,0,0.75);
+}
+
+.webinar-cta {
+	text-align: center;
+    margin-top: 50px;
+}
+
+.footer-social-links img {
+	width: 20px;
+	height: 20px;
+   -webkit-filter: grayscale(1) invert(1);
+    filter: grayscale(1) invert(1);
+}
